@@ -1,4 +1,3 @@
 #The todo list.
-
- * QXL device
- * VMC
+  * QXL device
+  * VMC
