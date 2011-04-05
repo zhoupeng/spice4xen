@@ -1,14 +1,14 @@
-About Spice
-===========
+=About Spice=
+
 http://spice-space.org/
 
-About Porting Spice to Xen
-==========================
+=About Porting Spice to Xen=
 
-It is part of the skylark project.
 
-Quick-Start Guide
-=================
+It is part of our skylark project.
+
+=Quick-Start Guide=
+
 
 1. set CONFIG_SPICE  ?= y
 
