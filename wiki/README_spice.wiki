@@ -10,10 +10,9 @@ It is part of our skylark project.
 =Quick-Start Guide=
 
 
-1. set CONFIG_SPICE  ?= y
-
-2. Build and install 
+1. Build and install 
 {{{
+   set CONFIG_SPICE  ?= y
    $cd the root of spice4xen
    $make install-xen
    $make install-kernels
@@ -21,7 +20,7 @@ It is part of our skylark project.
 }}}
    Please refer to the documents of Xen for details.
    
-3. Create a configure file for xm
+2. Create a configure file for xm
 
 An example:   
 {{{
@@ -57,11 +56,11 @@ spiceagent_mouse = 1 # 1-on (default)| 0-off, # agent-mouse mode
 #qxlnum=1
 #qxlram=64 # M
 }}}
-4. Create a HVM
+3. Create a HVM
 {{{
 $xm create path-to-configure-file/xm.cfg
 }}}
-5. Launch the spice client
+4. Launch the spice client
 
 According to the example configuration above:
 {{{
