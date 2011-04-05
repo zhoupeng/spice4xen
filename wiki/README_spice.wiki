@@ -53,9 +53,9 @@ spicejpeg_wan_compression = 'auto' # auto|never|always
 spicezlib_glz_wan_compression = 'auto' # auto|never|always
 spiceplayback = 1 # 1-on|0-off # playback compression, should using CELT algorithm?
 spiceagent_mouse = 1 # 1-on (default)| 0-off, # agent-mouse mode
-qxl=0
-qxlnum=1
-qxlram=64 # M
+#qxl=0
+#qxlnum=1
+#qxlram=64 # M
 }}}
 4. Create a HVM
 {{{
