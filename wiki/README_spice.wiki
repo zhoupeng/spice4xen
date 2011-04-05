@@ -14,7 +14,7 @@ It is part of our skylark project.
 
 2. Build and install 
 {{{
-   $cd the root of skylark
+   $cd the root of spice4xen
    $make install-xen
    $make install-kernels
    $make install-tools
