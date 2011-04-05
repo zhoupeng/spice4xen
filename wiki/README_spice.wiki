@@ -13,18 +13,18 @@ Quick-Start Guide
 1. set CONFIG_SPICE  ?= y
 
 2. Build and install 
-
+{{{
    $cd the root of skylark
    $make install-xen
    $make install-kernels
    $make install-tools
-
+}}}
    Please refer to the documents of Xen for details.
    
 3. Create a configure file for xm
 
 An example:   
-
+{{{
 kernel = '/usr/lib/xen/boot/hvmloader'
 builder = 'hvm'
 memory = '384'
@@ -56,7 +56,7 @@ spiceagent_mouse = 1 # 1-on (default)| 0-off, # agent-mouse mode
 qxl=0
 qxlnum=1
 qxlram=64 # M
-
+}}}
 4. Create a HVM
 
 $xm create path-to-configure-file/xm.cfg
