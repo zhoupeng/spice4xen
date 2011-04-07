@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e -v
+
+if test -f spice/Makefile
+then
+    rm spice/Makefile
+fi
+if test -f Makefile
+then
+    rm Makefile
+fi
+if test -f configure.status
+then
+    rm configure.status
+fi
+
+PREFIX="/usr/local/spice-xen"
+./configure --prefix=${PREFIX}
+
