@@ -9,7 +9,8 @@ It is part of our skylark project.
 
 =Quick-Start Guide=
 
-  You can get the source from [http://code.google.com/p/spice4xen/source/checkout svn] or [http://code.google.com/p/spice4xen/downloads/list tarball]
+  You can get the source from the [http://code.google.com/p/spice4xen/source/checkout svn] or [http://code.google.com/p/spice4xen/downloads/list tarball]
+The svn include the dom0 kernel and the tarball's kernel is downloaded in the "$make install-kernels" process however.
 
 1. Build and install 
 {{{
