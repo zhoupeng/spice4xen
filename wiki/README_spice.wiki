@@ -9,11 +9,10 @@ It is part of our skylark project.
 
 =Quick-Start Guide=
 
+  You can get the source from [http://code.google.com/p/spice4xen/source/checkout svn] or [http://code.google.com/p/spice4xen/downloads/list tarball]
 
 1. Build and install 
 {{{
-   You can get the source from [http://code.google.com/p/spice4xen/source/checkout svn] or [http://code.google.com/p/spice4xen/downloads/list tarball]
-
    set CONFIG_SPICE  ?= y
    $cd the root of spice4xen
    $make install-xen
