@@ -1,3 +1,5 @@
+#summary spice4xen on Xen4.0.1 with old Qemu
+
 =About Spice=
 
 http://spice-space.org/
