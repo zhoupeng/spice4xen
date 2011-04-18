@@ -17,27 +17,27 @@
 
  * Set the VM configuration file.
 
-Add spice fields in VM configuration file.
-{{{
-#spice
-spice=1
-spiceport=6000
-spicehost='192.168.1.187'
-spicedisable_ticketing = 0 # default is 0
-spicepasswd = 'password'
+   Add spice fields in VM configuration file.
+   {{{
+   #spice
+   spice=1
+   spiceport=6000
+   spicehost='192.168.1.187'
+   spicedisable_ticketing = 0 # default is 0
+   spicepasswd = 'password'
 
-apic=0 # disable acpi, if you used the appended patch, set acpi=0
-}}}
+   apic=0 # disable acpi, if you used the additional patch, use acpi=0 instead
+   }}}
 
-You may need to disable acpi(I'm not sure),
+   You may need to disable acpi(I'm not sure),
 
-but if you want to try to disable acpi, you may need to set
+   but if you want to try to disable acpi, you may need to set
 
-apic = 0, (Yes it is apic not acpi, pls don't ask me why, because I am also confused with it).
+   apic = 0, (Yes it is apic not acpi, pls don't ask me why, because I am also confused with it).
 
-If you feel uncomfortable by set apic = 0, you can try [http://spice4xen.googlecode.com/files/apic-acpi.diff the additional patch],
+   If you feel uncomfortable by set apic = 0, you can try [http://spice4xen.googlecode.com/files/apic-acpi.diff the additional patch],
 
-then you can use acpi=0 in vm cfg file instead of apic to give "no-acpi" argument to qemu.
+   then you can use acpi=0 in vm cfg file instead of apic to give "no-acpi"   argument to qemu.
 
  * Use xl to create an hvm
 
