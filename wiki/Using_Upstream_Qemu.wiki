@@ -1,4 +1,4 @@
-#summary How to use spice for upstream Xen, 2011-04-18
+#summary SPICE on upstream-Xen With Xen-Upstream-Qemu How to, 2011-04-18
 
 
  * Use [http://spice4xen.googlecode.com/files/spice-upstreamXen-upstreamQemu.diff this patch] for unstable-xen or xen-4.1.0
