@@ -28,10 +28,15 @@ spicepasswd = 'password'
 
 apic=0 # disable acpi, if you used the appended patch, set acpi=0
 }}}
+
 You may need to disable acpi(I'm not sure),
+
 but if you want to disable acpi, you may need to set
-apic = 0, yes it is apic not acpi, pls don't ask me why, because I am also confused with it.
+
+apic = 0, (yes it is apic not acpi, pls don't ask me why, because I am also confused with it).
+
 If you feel uncomfortable by set apic = 0, you can try an additional patch appended,
+
 then you can use acpi=0 in vm cfg file to give "no-acpi" argument to qemu.
 
  * Use xl to create an hvm
