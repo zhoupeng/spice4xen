@@ -37,7 +37,7 @@ apic = 0, (Yes it is apic not acpi, pls don't ask me why, because I am also conf
 
 If you feel uncomfortable by set apic = 0, you can try [http://spice4xen.googlecode.com/files/apic-acpi.diff the additional patch],
 
-then you can use acpi=0 in vm cfg file to give "no-acpi" argument to qemu.
+then you can use acpi=0 in vm cfg file instead of apic to give "no-acpi" argument to qemu.
 
  * Use xl to create an hvm
 
