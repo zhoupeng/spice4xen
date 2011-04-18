@@ -4,7 +4,7 @@
  
  * Get and install [http://spice-space.org/ libspiceserver spice-protocol]
 
- * Get the [git://xenbits.xen.org/people/aperard/qemu-dm.git Anthony's tree for xen-upstream-qemu]
+ * Get Anthony's tree for xen-upstream-qemu from git://xenbits.xen.org/people/aperard/qemu-dm.git
 
  * Build and install the qemu with the following config options
  {{{   
