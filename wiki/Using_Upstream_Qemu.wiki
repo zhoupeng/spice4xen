@@ -1,5 +1,7 @@
 #summary How to use spice for upstream Xen.
 
+2011-04-18
+
  * Use [http://spice4xen.googlecode.com/files/spice-upstreamXen-upstreamQemu.diff this patch] for unstable-xen or xen-4.1.0
  
  * Get and install [http://spice-space.org/ libspiceserver and spice-protocol]
@@ -13,4 +15,24 @@
    --extra-ldflags=-L${path_to_xen}/dist/install/usr/lib
  }}}
 
- * 
+ * Set the VM configuration file.
+
+Add spice fields in VM configuration file.
+#spice
+spice=1
+spiceport=6000
+spicehost='192.168.1.187'
+spicedisable_ticketing = 0 # default is 0
+spicepasswd = 'password'
+
+apic=0 # disable acpi, if you used the appended patch, set acpi=0
+
+You may need to disable acpi(I'm not sure),
+but if you want to disable acpi, you may need to set
+apic = 0, yes it is apic not acpi, pls don't ask me why, because I am also confused with it.
+If you feel uncomfortable by set apic = 0, you can try an additional patch appended,
+then you can use acpi=0 in vm cfg file to give "no-acpi" argument to qemu.
+
+ * Use xl to create an hvm
+
+ * Because xen-upstream-qemu doesn't support graphic properly at the present
