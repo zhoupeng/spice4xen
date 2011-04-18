@@ -8,5 +8,7 @@
 
  * Build and install the qemu with the following config options
  {{{   
- ./configure --target-list=i386-softmmu --enable-spice --enable-xen --extra-cflags=-I${pata_to_xen}/dist/install/usr/include --extra-ldflags=-L${path_to_xen}/dist/install/usr/lib
+ ./configure --target-list=i386-softmmu --enable-spice
+   --enable-xen --extra-cflags=-I${pata_to_xen}/dist/install/usr/include
+   --extra-ldflags=-L${path_to_xen}/dist/install/usr/lib
  }}}
