@@ -32,7 +32,7 @@
 
     but if you want to try to disable acpi, you may need to set
 
-    apic = 0, (Yes it is apic not acpi, pls don't ask me why, because I am also confused with it).
+    apic = 0, (Yes, it is apic not acpi, pls don't ask me why, because I am also confused with it).
 
     If you feel uncomfortable by set apic = 0, you can try [http://spice4xen.googlecode.com/files/apic-acpi.diff the additional patch],
 
