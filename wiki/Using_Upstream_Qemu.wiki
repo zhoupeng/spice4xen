@@ -40,4 +40,4 @@
 
  * Use xl to create an hvm
 
- * Because xen-upstream-qemu don't suport graphic, pls try this in linux-hvm disabling graphic boot.
+ * Because xen-upstream-qemu don't support graphic, pls try this in linux-hvm disabling graphic boot.
