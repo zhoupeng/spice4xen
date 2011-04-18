@@ -18,6 +18,7 @@
  * Set the VM configuration file.
 
 Add spice fields in VM configuration file.
+{{{
 #spice
 spice=1
 spiceport=6000
@@ -26,7 +27,7 @@ spicedisable_ticketing = 0 # default is 0
 spicepasswd = 'password'
 
 apic=0 # disable acpi, if you used the appended patch, set acpi=0
-
+}}}
 You may need to disable acpi(I'm not sure),
 but if you want to disable acpi, you may need to set
 apic = 0, yes it is apic not acpi, pls don't ask me why, because I am also confused with it.
@@ -34,5 +35,3 @@ If you feel uncomfortable by set apic = 0, you can try an additional patch appen
 then you can use acpi=0 in vm cfg file to give "no-acpi" argument to qemu.
 
  * Use xl to create an hvm
-
- * Because xen-upstream-qemu doesn't support graphic properly at the present
