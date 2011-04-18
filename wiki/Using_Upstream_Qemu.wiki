@@ -26,7 +26,7 @@
     spicedisable_ticketing = 0 # default is 0
     spicepasswd = 'password'
 
-    apic=0 # disable acpi, if you used [http://spice4xen.googlecode.com/files/apic-acpi.diff the additional patch], use acpi=0 instead
+    apic=0 # disable acpi, if you used the additional patch referred below, use acpi=0 instead
     }}}
 
     You may need to disable acpi(I'm not sure),
