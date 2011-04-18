@@ -1,9 +1,8 @@
-#summary One-sentence summary of this page.
+#How to use spice for upstream Xen.
 
 = Introduction =
 
-Add your content here.
-
+Use [http://spice4xen.googlecode.com/files/spice-upstreamXen-upstreamQemu.diff this patch] for unstable-xen or xen-4.1.0.
 
 = Details =
 
